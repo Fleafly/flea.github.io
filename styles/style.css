@@ -1,3 +1,17 @@
 body {
-	background: url("../tc3b6.jpg");
+	background: url("../images/tc3b6.jpg");
 }
+
+p {
+
+font-weight: bold;
+font-size: 10 px
+}
+ p {
+ 	color: white;
+ }
+
+ p#Firstp {
+ 	color: dark blue;
+
+ }
