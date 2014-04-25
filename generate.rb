@@ -1,4 +1,5 @@
-File.write("./bg/index.html",'<!DOCTYPE html>
+#encoding: utf-8
+ File.write("./bg/index.html",'<!DOCTYPE html>
 
 <html>
 <head>
@@ -8,12 +9,12 @@ File.write("./bg/index.html",'<!DOCTYPE html>
 </head>
 <body>
 
-	<h1>Вили</h1>
+	<h1>%{myname}</h1>
 
 		<article class = "main" 
 			title = "Привет!" >
 			<h3>
-				<p id="Firstp">Скачам на кокили.</p>
+				<p id="Firstp">%{firstptext}</p>
 				<p id="Secondp">Харесвам да скачам на кокили.</p>	
 				<p id="Thirdp">Много харесвам да скачам на кокили.</p>
 			</h3>
@@ -23,6 +24,15 @@ File.write("./bg/index.html",'<!DOCTYPE html>
 		<a href="../en/index.html">EN</a>
 </body>
 </html>')
+
+eng_text={
+	:myname=> "Vili",
+	:firstptext=> "Give it away",}
+
+bg_text={
+	:myname=> "Вили",
+	:firstptext=> "Скачам на кокили.",}
+
 
 
 
