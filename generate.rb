@@ -1,4 +1,4 @@
-File.write("./hi.txt",'Hello world')
+File.write("hi.txt",'Hello world')
 
 
 
