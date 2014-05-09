@@ -25,13 +25,13 @@
 </body>
 </html>')
 
-eng_text={
-	:myname=> "Vili",
-	:firstptext=> "Give it away",}
+#eng_text={
+# 	:myname=> "Vili",
+# 	:firstptext=> "Give it away",}
 
-bg_text={
-	:myname=> "Вили",
-	:firstptext=> "Скачам на кокили.",}
+# bg_text={
+# 	:myname=> "Вили",
+# 	:firstptext=> "Скачам на кокили.",}
 
 
 
