@@ -1,4 +1,5 @@
 #encoding: utf-8
+html_content = File.read("./template/template.html")
 
 en_translation={
 	:myname=> "Vili",
